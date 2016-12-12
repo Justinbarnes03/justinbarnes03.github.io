@@ -1,0 +1,146 @@
+html *{box-sizing: border-box;
+}
+*:before, *:after{box-sizing:border-box;}
+body{
+    background-color: #353c3f;
+}
+#navBar{
+    float:left;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color:#ff8d3f;
+    z-index: -1;
+
+}
+#navBar.ul li{float: left;}
+
+#ul.navBar li a{
+    display: inline-block;
+}
+#navLink{
+    position: absolute;
+    top:0px;
+    right:10px;
+    padding-left: 10px;
+    display: inline-block;
+    
+}
+#input{
+    position: relative;
+    float: right;
+    margin: auto 0;
+    top:40px;
+
+
+
+}
+header{
+    background-color:#ff8d3f;
+    margin: 0;
+    border: 1px black;
+
+}
+
+#logo{ float: left;
+    top:0;
+    background-size: contain;
+    height: 100px;
+    padding-right: 10px;
+    
+}
+#city{
+    background-color: #756867;
+    width: 100%;
+    align-content: center;
+    position: absolute;
+    top: 89px;
+    right: 0;
+    width: 100%;
+    height: 72px;
+    border: 1px solid;
+    padding: 10px ;
+    text-align: center;
+
+    
+}
+#sunny{
+    box-sizing: border-box;
+    position: absolute;
+    top:162px;
+    right: 0;
+    padding:10px;
+    width: 50%;
+    height: 220px;
+    background-size: contain;
+    background-color: #353c3f;
+    align-content: center;
+}
+#sun{
+    height:75%;
+    display:block;
+    margin:auto;
+}
+#current{ background-color: #d5d6d2;
+    position: absolute;
+    width:100%;
+    top: 162px;
+    left:0;
+    right:0;
+    padding: 10px;
+    height: 250px;
+text-align: left;
+    
+}
+#group{
+    display: inline-block;
+}
+#threeDay{
+    position: absolute;
+    align-content: center;
+    border: 1px black;
+    top:382px;
+    left:0;
+    width: 100%;
+    text-align: center;
+    background-color: #756867;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #ff8d3f;
+    width: 100%;
+    padding: 10px;
+    left: 0;
+    right:0
+}
+#contain{
+    position: absolute;
+    top:451px;
+    width: 100%;
+    align-content: center;
+    justify-content: space-between;
+    clear:both;
+    background-color: aquamarine
+}
+#days{
+    position: absolute;
+    top: 451px;
+    width: 100%;
+    left:0;
+    right:0;
+    height: 150px;
+    background-color: #d5d6d2;
+    text-align: center;
+    
+    }
+#screen{
+
+    position: absolute;
+    align-content: center;
+    width: 100%;
+    right:0;
+    left:0;
+}

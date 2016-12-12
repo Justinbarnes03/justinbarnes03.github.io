@@ -1,0 +1,112 @@
+html * {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d5d6d2;
+}
+
+header {
+    height: 100%;
+}
+
+#city {
+    text-align: center;
+    background-color: #ff8d3f;
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+#weather {
+    float: left;
+}
+
+#logo {
+    float: left;
+    background-size: contain;
+    height: 100px;
+    padding-right: 10px;
+}
+
+#navBar {
+    float: ;
+    width: 100%;
+    padding: 1em;
+}
+
+#navLink {
+    float: right;
+    align-content: center;
+}
+
+#current {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+#sun {
+    position: relative;
+}
+
+#days {
+    width: 100%;
+    display: flex;
+}
+
+#threeDay {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    margin: 1em;
+}
+
+#dayOne {
+    float: left;
+    text-align: center;
+    margin: 1em;
+    width: 33%;
+    align-content: center;
+}
+
+#dayThree {
+    float: right;
+    text-align: center;
+    margin: 1em;
+    width: 33%;
+    align-content: center;
+}
+
+#dayTwo {
+    align-content: center;
+    text-align: center;
+    margin: 1em;
+    width: 33%;
+    
+}
+
+#hourly {
+    margin: 1em;
+    align-content: center;
+    text-align: center;
+}
+
+@media screen(min-width:767px){
+  
+    #hourly{
+        display: none;
+    }
+}
+
+#footer{
+    width: 100%;
+    background-color: #ff8d3f;
+}

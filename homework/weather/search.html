@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Search</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="/homework/weather/css/weather.css" type="text/css" media="screen">
+</head>
+<!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Justin Barnes
+* 2. Brett Carroll
+* 3.
+* 4.
+* 5.
+* ******************************************** -->
+<body>
+  <div id="wrapper">
+    <header id="page-header"></header>
+    
+
+    <main id="page-main">
+    <nav id="page-nav">
+        <ul class="flexlist">
+        </ul>
+      </nav>
+     
+        
+     
+     <form id="search" method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
+    
+    
+    <section id="searchResults"></section>
+    
+    <section class="weather-container">
+        <div id="cover">
+          
+        </div>
+        <h1 id="location"></h1>
+        <h2>Current Conditions</h2>
+        <ul id="current_conditions">
+          <ul id="currentTemp"></ul>
+          <ul id="high"></ul>
+          <ul id="low"></ul>
+          <ul id="summary"></ul>
+          <ul id="add1"></ul>
+          <ul id="add2"></ul>
+          <ul id="add3"></ul>
+        </ul>
+      </section>
+    
+      
+    </main>
+    <footer id="page-footer">
+      <div id="footer-content"></div>
+      <small>Last updated: dec 2 </small>
+    </footer>
+ <!--<img id="wireframe" alt="wireframe" src="/homework/weather/images/wireframes%20.jpg" >-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="/homework/weather/scripts/modules.js"></script>
+    <script src="/homework/weather/scripts/remote_wu.js"></script>
+    <script src="/homework/weather/scripts/search.js"></script>
+  </div>
+</body>
+
+</html>

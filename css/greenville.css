@@ -1,0 +1,204 @@
+html * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* small screen devices */
+
+@media screen and (max-width:425px) {
+    #radar {
+        display: none;
+    }
+    #tStorm {
+        max-width: 250px;
+    }
+    #logo {
+        max-width: 75px;
+        max-height: 75px;
+    }
+    #screen {
+        max-height: 300px;
+        max-width: 300px;
+    }
+     #fiveDay{
+        display: none;
+        
+    }
+    #dayFour{
+        display: none;
+    }
+    #dayFive{
+        display: none;
+    }
+}
+
+
+/* medium Screen */
+
+@media screen and (min-width: 426px) {
+    #wrapper {
+        font-size: 1.25em;
+    }
+    #fiveDay{
+        display: none;
+        
+    }
+    #dayFour{
+        display: none;
+    }
+    #dayFive{
+        display: none;
+    }
+}
+
+
+/* large Screen */
+
+@media screen and (min-width:769px) {
+    #wrapper {
+        font-size: 2em;
+    }
+    #threeDay{
+        display: none;
+    }
+    
+    #fiveDay{
+        display: flex;
+        text-align: center;
+        align-content: center;
+        
+    }
+    #dayFour{
+        display: flex;
+        flex-grow: 1;
+    }
+    #dayFive{
+        display: flex;
+        flex-grow: 1;
+    }
+}
+
+body {
+    background-color: #d5d6d2;
+}
+
+#city {
+    text-align: center;
+    background-color: #756867;
+    padding: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ff8d3f;
+}
+
+#logo {
+    background-size: contain;
+    height: 100px;
+    padding-right: 10px;
+}
+
+#navBar {
+    width: 100%;
+    padding: 1em;
+}
+
+#navLink {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+#current {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+#radar {
+    align-content: center;
+    flex-grow: 1;
+    padding: 15px;
+    width: 100%;
+    
+}
+
+.days {
+   
+    display: flex;
+    flex-direction:row;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+
+
+ #threeDay {
+    text-align: center;
+    align-content: center;
+    margin: 1em;
+}
+#fiveDay{
+    text-align: center;
+    align-content: center;
+    margin: 1em;
+}
+
+
+#dayOne {
+    text-align: center;
+    flex-grow: 1;
+    align-content: center;
+}
+
+#dayThree {
+    text-align: center;
+    flex-grow: 1;
+    align-content: center;
+}
+
+#dayTwo {
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+#dayFour{
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+    
+}
+#dayFive{
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+    
+}
+#hourly {
+    margin: 1em;
+    align-content: center;
+    text-align: center;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #ff8d3f;
+}
+
+#wireframe {
+    max-height: 320px;
+    max-width: 320px;
+    align-content: center;
+}

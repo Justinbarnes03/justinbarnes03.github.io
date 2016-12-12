@@ -1,0 +1,238 @@
+html * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* -----------------------------------------------------------------------------------------------------------
+
+                Media Queries
+
+------------------------------------------------------------------------------------------------------------*/
+/* small screen devices */
+
+@media screen and (max-width:767px) {
+    #radar {
+        display: none;
+    }
+    #tStorm {
+        max-width: 250px;
+    }
+    #logo {
+        max-width: 75px;
+        max-height: 75px;
+    }
+    #screen {
+        max-height: 300px;
+        max-width: 300px;
+    }
+     .fiveDay{
+        display: none;
+        
+    }
+    #dayFour{
+        display: none;
+    }
+    #dayFive{
+        display: none;
+    }
+}
+
+
+/* medium Screen */
+
+@media screen and (max-width: 1079px) {
+    #wrapper {
+        font-size: 1.25em;
+    }
+    #fiveDay{
+        display: none;
+        
+    }
+    #dayFour{
+        display: none;
+    }
+    #dayFive{
+        display: none;
+    }
+}
+
+
+/* large Screen */
+
+@media screen and (min-width:1080px) {
+    #wrapper {
+        font-size: 2em;
+    }
+    #threeDay{
+        display: none;
+    }
+    
+    #fiveDay{
+        text-align: center;
+        align-content: center;
+        width: 100%;
+     
+        
+    }
+    #dayFour{
+        text-align: center;
+        
+    }
+    #dayFive{
+        
+    }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------
+
+            Header
+
+----------------------------------------------------------------------------------------------------------*/
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ff8d3f;
+}
+#header>a{
+    width: 10%;
+    align-self: flex-start;
+}
+
+#logo {
+    background-size: contain;
+    width: 100%;
+    
+}
+
+#navBar {
+    display: flex;
+  
+}
+
+.navLink {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding-right: 1em;
+}
+
+/*----------------------------------------------------------------------------------------------
+
+            Main
+
+------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #d5d6d2;
+}
+
+#city {
+    text-align: center;
+    background-color: #756867;
+    padding: 5px;
+    margin: 0;
+}
+
+
+
+#current {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+#radar {
+    align-content: center;
+    flex-grow: 1;
+    padding: 15px;
+    width: 100%;
+    
+}
+/*---------------------------------------------------
+
+3 and 5 day forcast
+
+-----------------------------------------------------*/
+.days {
+   
+    display: flex;
+    flex-direction:row;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+
+/* this is not day 3 or 5 */
+ #threeDay {
+    text-align: center;
+    align-content: center;
+    margin: 1em;
+}
+#fiveDay{
+    text-align: center;
+    align-content: center;
+    
+   
+}
+
+
+#dayOne {
+    text-align: center;
+    flex-grow: 1;
+    align-content: center;
+}
+
+#dayThree {
+    text-align: center;
+    flex-grow: 1;
+    align-content: center;
+}
+
+#dayTwo {
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+}
+#dayFour{
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+    
+}
+#dayFive{
+    align-content: center;
+    text-align: center;
+    flex-grow: 1;
+    
+}
+#hourly {
+    margin: 1em;
+    align-content: center;
+    text-align: center;
+}
+
+/*-------------------------------------------------
+
+Footer
+---------------------------------------------------*/
+#footer {
+    width: 100%;
+    background-color: #ff8d3f;
+}
+
+.wireframe {
+    width: 100%;
+    align-content: center;
+}

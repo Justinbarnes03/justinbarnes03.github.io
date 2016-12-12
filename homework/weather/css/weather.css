@@ -1,0 +1,392 @@
+html * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------
+
+                Media Queries
+
+------------------------------------------------------------------------------------------------------------*/
+
+
+/* small screen devices */
+
+@media screen and (max-width:767px) {
+    
+}
+
+
+/* medium Screen */
+
+@media screen and (min-width: 44em){
+	#page-header h1 {
+		font-size: 10vw;
+	}
+	
+    .searchLink{
+        4vw;
+        
+    }
+	#page-nav ul {
+		font-size: 4vw;
+	}
+	#page-footer {
+		font-size: 1.25rem;
+	}
+}
+
+/* large Screen */
+
+@media screen and (min-width: 60em){
+	
+	#page-footer {
+		font-size: 2rem;
+	}
+    .searchLink{
+        5vw;
+        
+    }
+    
+	
+}
+
+body {
+    background-color: #d5d6d2;
+}
+
+#wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+#page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ff8d3f;
+    
+}
+.searchLink{
+    float: right;
+    padding: 10px;
+    
+    
+}
+#page-main{
+    
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+
+    
+    
+}
+#logo{
+    background-size: contain;
+    width: 100%;
+    
+}
+#page-nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #756867;
+    
+    
+    
+}
+.flexlist{
+    display: flex;
+    list-style: none;
+    width: 100%; 
+}
+
+#weather-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+#cover{
+    
+}
+#location{text-align: center;
+    align-content: center;
+    
+}
+#cityDisplay{
+    align-content: center;
+    text-align: center;
+}
+#current_conditions{
+text-align: center;
+align-content: center;
+    padding: 0;
+    
+}
+#currentTemp{ 
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+#high{
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+#low{
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+#summary{
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+#add1{
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+#add2{
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+#add3{
+    padding: 0;
+    align-content: center;
+    text-align: center;
+    
+}
+
+#page-footer{
+    display: inline-block;
+    bottom:0;
+    width:100%;
+    background-color: #ff8d3f;
+    text-align: center;
+    align-content: center;
+    
+}
+
+#footer-content{
+    align-content:center;
+    
+}
+/*
+ --------------------------------------------------------------------------------------------------------
+
+            Header
+
+----------------------------------------------------------------------------------------------------------
+
+#page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ff8d3f;
+}
+
+
+
+
+#logo {
+    background-size: contain;
+    width: 100%;
+}
+
+#page-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navLink {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding-right: 1em;
+}
+
+#search {
+    padding: 5px;
+}
+
+#flexlist {
+    padding 0px 10px;
+    width: 100%;
+    align-content: center;
+    
+}
+#flexlist li{
+    justify-content: center;
+    padding: 5px;
+
+}
+
+
+----------------------------------------------------------------------------------------------
+
+            Main
+
+------------------------------------------------------------------------------------------------
+
+body {
+    background-color: #d5d6d2;
+}
+
+#weather-container {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+}
+
+#city-display {
+    align-content: center;
+    text-align: center;
+    background-color: #756867;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+}
+
+.flexlist {
+    display: flex;
+    flex-flow: center;
+    background-color: #756867;
+    text-align: center;
+    height:auto;
+    width: 100%;
+    align-content: center;
+    align-items: baseline;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+
+}
+.flexlist li{
+    justify-content: center;
+}
+
+#page-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+#currentTemp {
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+
+#high {
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+
+#low{
+    padding:0;
+    align-content: center;
+    text-align: center;
+}
+
+#summary {
+    
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+
+#add1{
+    padding:0;
+}
+
+#add2{
+    padding:0;
+}
+
+#add3{
+    padding:0;
+}
+
+#search{
+    
+}
+
+#searchResults{
+    
+}
+
+#cityDisplay{
+    
+}
+
+
+
+
+
+-------------------------------------------------
+
+Footer
+---------------------------------------------------
+
+#page-footer {
+    position: fixed;
+    bottom:0;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    background-color: #ff8d3f;
+}
+
+#weatherCenter{
+    align-content: center;
+    display: flex;
+    align-items:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    
+}
+
+.wireframe {
+    width: 100%;
+    align-content: center;
+}
+*/

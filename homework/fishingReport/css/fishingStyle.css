@@ -1,0 +1,374 @@
+html {
+    box-sizing: border-box;
+    background-color: #e9e9e9;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#header {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    background-color: #88bbd6;
+    color: #cdcdcd;
+    font-family: 'Roboto Slab', serif;
+}
+
+#header h1 {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+#logo {
+    width: 10%;
+    padding: 15px;
+    float: left;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #cdcdcd;
+    font-family: 'Roboto Slab', serif;
+    font: 1em;
+}
+
+#navBar ul {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-size: contain;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+    border: 2px black;
+}
+
+#navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cdcdcd;
+}
+
+#navBar ul a {
+    color: floralwhite;
+}
+
+#navBar ul a {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+#navBar ul a:hover {
+    background-color: #987;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+#wrapper h2{
+    align-content: center;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+#fallCreek {
+    object-fit: scale-down;
+    width: 100%;
+    
+}
+
+#video {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+#main {
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+#area1 {
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#area2 {
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.regions {
+    display: flex;
+    padding: 5px;
+    border: 5px black;
+    width: 100%;
+    margin: 5px;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #99d3df;
+    border-radius: 25px;
+}
+
+.regions ul {
+    padding: 2px;
+}
+
+#footer {
+    width: 100%;
+    background-color: #88bbd6;
+    padding: 15px 15px 5px 15px;
+    font-family: 'Lato', sans-serif;
+}
+.rivers {
+    display: flex;
+    padding: 15px;
+    border: 5px black;
+    width: 100%;
+    margin: 5px;
+    align-content: center;
+    text-align: left;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #99d3df;
+    border-radius: 25px;
+}
+
+.rivers h3{
+    text-align: center;
+    
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #111;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/*---------------------------- Media Q's--------------------------------------------------*/
+
+
+/* medimum screens */
+
+@media screen and (min-width:767px) {
+    #main {
+        display: flex;
+        flex-flow: column;
+        align-content: center;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.09em;
+    }
+    #area1 {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #area2 {
+        display: flex;
+        align-content: center;
+        text-align: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .regions {
+        padding: 5px;
+        border: 5px black;
+        width: 50%;
+        margin: 5px;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        background-color: #99d3df;
+        border-radius: 25px;
+    }
+    #.regions ul {
+        padding: 2px;
+    }
+    
+    #navBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        background-color: #cdcdcd;
+        font-size: 1.20em;
+    }
+    #navBar ul {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-size: contain;
+        text-align: center;
+        align-content: center;
+        padding: 5px;
+        border: 2px black;
+    }
+    #navBar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cdcdcd;
+    }
+    #navBar ul a {
+        color: floralwhite;
+    }
+    #navBar ul a {
+        display: flex;
+        flex-flow: column;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        justify-content: space-between;
+    }
+    #navBar ul a:hover {
+        background-color: #987;
+    }
+    
+    #fallCreek{
+        background-image: url("/homework/fishingReport/images/fallCreek800.jpg");
+        background-repeat: no-repeat;
+        background-size: auto, cover;
+        text-align: center;
+        background-position: 98%;
+}
+}
+
+/* ***** Large Screens ***** */
+
+@media screen and (min-width:1023px) {
+    #main {
+        align-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2em;
+    }
+    #area1 {
+        width: 50%;
+        align-content: center;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #area2 {
+        width: 50%;
+        align-content: center;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .regions {
+        padding: 5px;
+        margin: 5px;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        flex-flow: column;
+        background-color: #99d3df;
+        border-radius: 25px;
+    }
+    #navBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        background-color: #cdcdcd;
+        font-size: 1.4em;
+    }
+    #navBar ul {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-size: contain;
+        text-align: center;
+        align-content: center;
+        padding: 5px;
+        border: 2px black;
+    }
+    #navBar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cdcdcd;
+    }
+    #navBar ul a {
+        color: floralwhite;
+    }
+    #navBar ul a {
+        display: flex;
+        flex-flow: column;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        justify-content: space-between;
+    }
+    #navBar ul a:hover {
+        background-color: #987;
+    }
+    #fallCreek{
+        background-image: url("/homework/fishingReport/images/fallCreek1200.jpg");
+        background-repeat: no-repeat;
+        background-size: auto, cover;
+        text-align: center;
+        background-position: 98%;
+}
+
+    }
+/* ----------*/

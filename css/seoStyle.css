@@ -1,0 +1,44 @@
+html *{
+    box-sizing: border-box;
+}
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+body{
+    font: 20px "times new roman", times, serif;
+    margin: 0;
+    padding: 10px;
+}
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page-header{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.row{
+    display:flex;
+    
+}
+#page-nav{
+    width: 20%;
+    
+}
+main{
+    width: 100%;
+    padding: 30px;
+}
+#page-aside{
+    width: 30%;
+}
+
+#page-nav, main, #page-aside{
+    }

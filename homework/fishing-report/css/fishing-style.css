@@ -120,6 +120,16 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 1em;
 }
+#main h3{
+    padding: 0;
+    margin: 0;
+    
+}
+
+#main h4{
+    padding: 15px 2px 2px 2px;
+    margin: 0;
+}
 
 #area1 {
     align-content: center;

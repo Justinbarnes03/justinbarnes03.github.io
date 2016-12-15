@@ -1,57 +1,122 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Home | justinbarnes03.github.io</title>
+    <meta charset="UTF-8">
+    <title>Idaho Fishing Report</title>
+    
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="/homework/fishing-report/css/fishing-style.css" type="text/css" media="screen">
 </head>
 
+
 <body>
+    <div id="wrapper">
+        <header id="header">
+            <!-- <img id="logo" src="/homework/fishingReport/images/rainbowTrout.png">
+            <h1>Idaho Fishing Report</h1>
+-->
+        </header>
+        <nav id="navBar">
+           <noscript>JavaScript is not enabled. For navigation, please visit the <a href="/homework/siteMap.html">Site Map</a></noscript>
+            <!-- <ul>
+                <ul>
+                    <a href="/homework/fishingReport/index.html"> Home</a></ul>
+                <ul><a href="#">Northern Idaho</a></ul>
+                <ul><a href="#">Western Idaho</a></ul>
+                <ul><a href="#">Eastern Idaho </a></ul>
+                <ul><a href="#">Centeral Idaho</a></ul>
 
-    <header>
-        <h1>justinbarnes03.github.io</h1>
-        <img alt="site logo for justinbarnes.github.io" src="#">
-    </header>
-
-    <nav><p>
-        <ul>
-            <li> <a href="index.html" title="Home but you're already here">Home</a></li>
-        </ul>
-    
-    </nav>
-
-    <main>
-        <h1>home</h1>
+            </ul> -->
+        </nav>
         
-            <ul><li>
-         <a href="https://dglinzey.github.io/homework/design-principles-assesment.html">Design Principles Assignment</a>
+         <picture id="fallCreek">
+			
+			<source srcset="/homework/fishing-report/images/fall-creek1440.jpg" media="(min-width: 801px) and (max-width:1440px)">
+			
+			<source srcset="/homework/fishing-report/images/fall-creek800.jpg" media="(min-width: 401px) and (max-width:800px)">
+           
+            <source srcset="/homework/fishing-report/images/fall-creek400.jpg">
+            
+            <img src="/homework/fishing-report/images/fall-creek400.jpg" alt="Fall Creek, South Fork of the Snake">
+            </picture> 
                 
-                <br>
-                
-            </li>
-                
-                <li>
-        <a href="./homework/visitor_analysis_persona.html"> Visitor Analysis Persona</a>
-                </li>
-        <li>
-            <a href="./homework/weather.html" title="Initial Planning Document">Initial Planning Document</a></li>
-    
-    <li> <a href="/homework/franklin2.html">Franklin Weather</a></li>
-    <li><a href="./layouts/layouts.html">layout practice</a></li>
-                <li><a href="/homework/seo.html">SEO presentation</a></li>
-                <li><a href="/homework/responsive_media/index.html">Responsive Media</a></li>
-                <li><a href="/homework/lesson4/index.htm">Lesson 4</a></li>
-                <li><a href="homework/jsonweather-html/index.html">Current Location Assessment</a> </li>
-                <li><a href="homework/index.html">Current Location searchbar</a> </li>
-                <li><a href="homework/fishingReport/index.html">Final Project</a></li>
-            <li>change</li>
-        </ul>    
-    </main>
+				
+        
+       <!-- <img id="fallCreek" src="/homework/fishingReport/images/fallCreek1440.jpg" alt="Fall Creek"> -->
 
-    <footer>
-        <p> site related stuff here</p>
-    </footer>
-    <!--This is a temporary home page served from a Github Respository.</p> -->
+        <video id="video" controls preload="metadata" src="/homework/fishing-report/images/trout-release.mp4"></video>
+
+
+        <main id="main">
+
+            <section id="area1">
+
+                <section class="regions">
+                    <a href='/homework/fishing-report/views/north-idaho.html'><strong >Northern Idaho</strong></a>
+                    <ul>
+                        <li id="northriver1"><!--Clearwater River --></li>
+                        <li id="northriver2"><!--Coeur d’Alene River--></li>
+                        <li id="northriver3"><!--St. Joe River--></li>
+                        <li id="northriver4"><!--St. Joe River--></li>
+                    </ul>
+
+                </section>
+                <section class="regions">
+                    <a href="/homework/fishing-report/views/west-idaho.html"><strong>Western Idaho</strong></a>
+                    <ul>
+                        <li id="westriver1"><!--Boise River--></li>
+                        <li id="westriver2"><!--Owyhee River--></li>
+                        <li id="westriver3"><!--Rapid River--></li>
+                        <li id="westriver4"><!--Payette Rive--></li>
+                    </ul>
+                </section>
+            </section>
+            <section id="area2">
+                <section class="regions">
+                    <a href="/homework/fishing-report/views/east-idaho.html"><strong>Eastern Idaho</strong></a>
+                    <ul>
+                        <li id="eastriver1"><!--Snake River--></li>
+                        <li id="eastriver2"><!--Henry's Fork--> </li>
+                        <li id="eastriver3"><!--Big Lost River--> </li>
+                        <li id="eastriver4"><!--Blackfoot River--></li>
+                    </ul>
+
+                </section>
+                <section class="regions">
+                    <a href="/homework/fishing-report/views/centeral-idaho.html"><strong>Centeral Idaho</strong></a>
+                    <ul>
+                        <li id="centriver1"><!--Middle Fork Salmon River --></li>
+                        <li id="centriver2"><!--Lemhi River--></li>
+                        <li id="centriver3"><!--Big Wood River--></li>
+                        <li id="centriver4"><!--Silver Creek--></li>
+                    </ul>
+                </section>
+            </section>
+
+
+
+
+
+        </main>
+        <footer id="footer">
+            <!-- Contact us
+            <ul>
+                <li>1800-ida-fish</li>
+                <li><a href='fishingreport@idahofishingreport.net'>Email</a></li>
+                <li><a href="">Homework</a></li>
+            </ul>
+-->
+
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="/homework/fishing-report/modules/modules.js"></script>
+        <script src="/homework/fishing-report/scripts/report.js"></script>
+        <script src="/homework/fishing-report/scripts/report.json"></script>
+    </div>
 </body>
 
 </html>
